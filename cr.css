@@ -65,6 +65,7 @@ input {
 input::placeholder {
   text-transform: capitalize;
   font-size: 14px;
+  color: white;
 }
 input:focus {
   outline: none;

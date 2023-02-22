@@ -61,11 +61,27 @@ input {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-
+.spantitle {
+  position: absolute;
+  /* transform: translate(15px, -70px); */
+  transform: translate(0px, -46px);
+  font-size: 20px;
+  text-transform: capitalize;
+  /* border: 1px red solid; */
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  transition: 0.5s;
+}
 input::placeholder {
   text-transform: capitalize;
   font-size: 14px;
+}
+#title:focus + .spantitle {
   color: white;
+  transform: translate(15px, -70px);
+  font-size: 25px;
+  border: 1px rgba(201, 33, 0, 1) solid;
 }
 input:focus {
   outline: none;
@@ -113,8 +129,12 @@ button {
   margin: 10px auto;
   padding: 10px;
   font-size: 16px;
- background: rgb(201,33,0);
-background: linear-gradient(90deg, rgba(201,33,0,1) 49%, rgba(0,161,118,1) 50%);
+  background: rgb(201, 33, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 33, 0, 1) 49%,
+    rgba(0, 161, 118, 1) 50%
+  );
   color: #fff;
   text-transform: capitalize;
   border: none;
@@ -136,8 +156,12 @@ button:hover {
   -moz-transform: scale(102%);
   -ms-transform: scale(102%);
   -o-transform: scale(102%);
-  background: rgb(0,161,118);
-background: linear-gradient(90deg, rgba(0,161,118,1) 48%, rgba(201,33,0,1) 49%);
+  background: rgb(0, 161, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 161, 118, 1) 48%,
+    rgba(201, 33, 0, 1) 49%
+  );
   color: #000000;
   letter-spacing: 1.2px;
   mix-blend-mode: lighten;
@@ -166,9 +190,9 @@ table th {
     font-size: 12px;
   }
 }
-#update{
-    margin-right: 5px;
+#update {
+  margin-right: 5px;
 }
-.deleteall{
-    margin: 20px;
+.deleteall {
+  margin: 20px;
 }

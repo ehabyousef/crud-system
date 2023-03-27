@@ -79,7 +79,7 @@ input::placeholder {
   color: white;
   transform: translate(15px, -70px);
   font-size: 25px;
-  border: 1px rgba(201, 33, 0, 1) solid;
+  border: 1px rgb(212, 203, 201) solid;
 }
 input:focus {
   outline: none;

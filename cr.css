@@ -69,7 +69,7 @@ input {
   width: 60px;
   height: 30px;
   text-align: center;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 input::placeholder {
   text-transform: capitalize;
@@ -80,6 +80,7 @@ input::placeholder {
   transform: translate(15px, -70px);
   font-size: 25px;
   border: 1px rgb(212, 203, 201) solid;
+  border-radius: 10px;
 }
 input:focus {
   outline: none;

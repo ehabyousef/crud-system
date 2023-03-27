@@ -84,11 +84,11 @@ input::placeholder {
 }
 input:focus {
   outline: none;
-  transform: scale(104%);
+  -o-transform: scale(104%);
   -webkit-transform: scale(104%);
   -moz-transform: scale(104%);
   -ms-transform: scale(104%);
-  -o-transform: scale(104%);
+  transform: scale(104%);
   box-shadow: #e6d8d2 2px 2px 9px;
 }
 #title {
@@ -106,12 +106,12 @@ input:focus {
 #total {
   background-color: #337e11;
   padding: 5px 3px;
-  border-radius: 6px;
+  -o-border-radius: 6px;
   text-transform: capitalize;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 6px;
 }
 #total:before {
   content: "total: ";
@@ -137,16 +137,16 @@ button {
   color: #fff;
   text-transform: capitalize;
   border: none;
-  border-radius: 6px;
+  -o-border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  transition: 0.5s;
+  border-radius: 6px;
+  -o-transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
-  -o-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 button:hover {

@@ -9,6 +9,7 @@
         "label": "off"
       }
     ],
-    "detect-css-reflows/layout": "off"
+    "detect-css-reflows/layout": "off",
+    "button-type": "off"
   }
 }

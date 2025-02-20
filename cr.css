@@ -128,12 +128,8 @@ button {
   margin: 10px auto;
   padding: 10px;
   font-size: 16px;
-  background: rgb(201, 33, 0);
-  background: linear-gradient(
-    90deg,
-    rgba(201, 33, 0, 1) 49%,
-    rgba(0, 161, 118, 1) 50%
-  );
+  background: #84a98c;
+  background: linear-gradient(90deg, #84a98c, #354f52);
   color: #fff;
   text-transform: capitalize;
   border: none;
@@ -155,12 +151,8 @@ button:hover {
   -moz-transform: scale(102%);
   -ms-transform: scale(102%);
   transform: scale(105%);
-  background: rgb(0, 161, 118);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 161, 118, 1) 48%,
-    rgba(201, 33, 0, 1) 49%
-  );
+  background: #354f52;
+  background: linear-gradient(90deg, #354f52, #84a98c);
   color: #000000;
   letter-spacing: 1.2px;
   mix-blend-mode: lighten;
